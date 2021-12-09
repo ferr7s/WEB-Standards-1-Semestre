@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 01</title>
+</head>
+<body>
+    
+    <h1>Dados</h1>
+
+    <script>
+
+        let nome = window.prompt('Digite seu nome:')
+        let idade = parseInt (window.prompt('Digite sua idade:'))
+        let cpf = parseInt(window.prompt('Digite seu cpf:'))
+
+        document.writeln('Nome: ' + nome) 
+        document.write('<br/>')
+        document.writeln('Idade: ' + idade)
+        document.write('<br/>')
+        document.writeln('CPF: ' + cpf)
+        document.write('<br/>')
+
+        if (idade >= 18) {
+            document.write('Parabens ' + nome , ' você pode votar!')            
+        }
+        else{
+            document.write(nome , ' você ainda não pode votar!')
+        }
+
+    </script>
+
+</body>
+</html>
